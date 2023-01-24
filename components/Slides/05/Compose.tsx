@@ -1,7 +1,9 @@
+import Title from "./Content/00-Title";
+
 const Compose = () => {
   return (
     <section>
-      <h2>This is a title</h2>
+      <Title />
 
       <aside className={"notes"}></aside>
     </section>
