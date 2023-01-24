@@ -1,0 +1,27 @@
+
+@font-face {
+    font-family: 'ExquisiteCorpse';
+    src: url('http://ashandrien.com/fonts/exquisitecorpse.eot');
+    src: url('http://ashandrien.com/fonts/exquisitecorpse.eot?#iefix') format('embedded-opentype'),
+         url('http://ashandrien.com/fonts/exquisitecorpse.woff') format('woff'),
+         url('http://ashandrien.com/fonts/exquisitecorpse.ttf') format('truetype'),
+         url('http://ashandrien.com/fonts/exquisitecorpse.svg#exquisitecorpse') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.bloody {
+  font-family:'ExquisiteCorpse', Jokerman, Marker Felt;
+  font-color:white;
+  margin:100px auto;
+  font-size:0.8em;
+  transition:all 3s ease-in-out;
+	-webkit-transition:all 3s ease-in-out;
+	-moz-transition:all 3s ease-in-out;
+  -o-transition:all 15s ease-in-out;
+  color:white;
+  text-shadow: 0px 0px 5px #888;
+}
+.bloody.start {
+  text-shadow: 0px 1px  #6e0606,0px 2px  #6e0606, 0px 3px  #6e0606, 0px 4px #6e0606, 0px 5px  #6e0606, 0px 6px  #6e0606, 0px 7px  #6e0606, 0px 8px  #6e0606, 0px 9px  #6e0606, 0px 10px  #6e0606, 0px 11px  #6e0606, 0px 12px  #6e0606, 0px 13px  #6e0606, 0px 14px  #6e0606, 0px 15px  #6e0606, 0px 16px  #6e0606, 0px 17px  #6e0606, 0px 18px  #6e0606, 0px 19px  #6e0606, 0px 20px  #6e0606, 0px 21px  #6e0606, 0px 22px  #6e0606, 0px 23px  #6e0606, 0px 24px  #6e0606, 0px 25px  #6e0606, 0px 26px  #6e0606, 0px 27px  #6e0606, 0px 28px  #6e0606, 0px 29px  #6e0606, 0px 30px  #6e0606, 0px 31px  #6e0606, 0px 32px  #6e0606, 0px 33px  #6e0606, 0px 34px  #6e0606, 0px 35px  #6e0606, 0px 36px  #6e0606, 0px 37px  #6e0606, 0px 38px  #6e0606, 0px 39px  #6e0606, 0px 40px  #6e0606, 0px 41px  #6e0606, 0px 42px  #6e0606, 0px 43px  #6e0606, 0px 44px  #6e0606, 0px 45px  #6e0606, 0px 46px  #6e0606, 0px 47px  #6e0606, 0px 48px  #6e0606, 0px 49px  #6e0606, 0px 50px  #6e0606, 0px 51px  #6e0606,0px 52px  #6e0606, 0px 53px  #6e0606, 0px 54px  #6e0606, 0px 55px  #6e0606, 0px 56px  #6e0606, 0px 57px  #6e0606, 0px 58px  #6e0606, 0px 59px  #6e0606, 0px 60px  #6e0606, 0px 61px  #6e0606, 0px 62px  #6e0606, 0px 63px  #6e0606, 0px 64px  #6e0606, 0px 65px  #6e0606, 0px 66px  #6e0606, 0px 67px  #6e0606, 0px 68px  #6e0606, 0px 69px  #6e0606, 0px 70px  #6e0606, 0px 71px  #6e0606, 0px 72px  #6e0606, 0px 73px  #6e0606, 0px 74px  #6e0606, 0px 75px  #6e0606, 0px 76px  #6e0606, 0px 77px  #6e0606, 0px 78px  #6e0606, 0px 79px  #6e0606, 0px 80px  #6e0606, 0px 81px  #6e0606, 0px 82px  #6e0606, 0px 83px  #6e0606, 0px 84px  #6e0606, 0px 85px  #6e0606, 0px 86px  #6e0606, 0px 87px  #6e0606, 0px 88px  #6e0606, 0px 89px  #6e0606, 0px 90px  #6e0606, 0px 91px  #6e0606, 0px 92px  #6e0606, 0px 93px  #6e0606, 0px 94px  #6e0606, 0px 95px  #6e0606, 0px 96px  #6e0606, 0px 97px  #6e0606, 0px 98px  #6e0606, 0px 99px  #6e0606, 0px 100px  #6e0606, 0px 101px  #6e0606,0px 102px  #6e0606, 0px 103px  #6e0606, 0px 104px  #6e0606, 0px 105px  #6e0606, 0px 106px  #6e0606, 0px 107px  #6e0606, 0px 108px  #6e0606, 0px 109px  #6e0606, 0px 110px  #6e0606, 0px 111px  #6e0606, 0px 112px  #6e0606, 0px 113px  #6e0606, 0px 114px  #6e0606, 0px 115px  #6e0606, 0px 116px  #6e0606, 0px 117px  #6e0606, 0px 118px  #6e0606, 0px 119px  #6e0606, 0px 120px  #6e0606, 0px 121px  #6e0606, 0px 122px  #6e0606, 0px 123px  #6e0606, 0px 124px  #6e0606, 0px 125px  #6e0606, 0px 126px  #6e0606, 0px 127px  #6e0606, 0px 128px  #6e0606, 0px 129px  #6e0606, 0px 130px  #6e0606, 0px 131px  #6e0606, 0px 132px  #6e0606, 0px 133px  #6e0606, 0px 134px  #6e0606, 0px 135px  #6e0606, 0px 36px  #6e0606, 0px 37px  #6e0606, 0px 38px  #6e0606, 0px 39px  #6e0606, 0px 40px  #6e0606, 0px 41px  #6e0606, 0px 142px  #6e0606, 0px 143px  #6e0606, 0px 144px  #6e0606, 0px 145px  #6e0606, 0px 146px  #6e0606, 0px 147px  #6e0606, 0px 148px  #6e0606, 0px 149px  #6e0606, 0px 150px  #6e0606, 0px 151px  #6e0606,0px 152px  #6e0606, 0px 153px  #6e0606, 0px 154px  #6e0606, 0px 155px  #6e0606, 0px 156px  #6e0606, 0px 157px  #6e0606, 0px 158px  #6e0606, 0px 159px  #6e0606, 0px 160px  #6e0606, 0px 161px  #6e0606, 0px 162px  #6e0606, 0px 163px  #6e0606, 0px 164px  #6e0606, 0px 165px  #6e0606, 0px 166px  #6e0606, 0px 167px  #6e0606, 0px 168px  #6e0606, 0px 169px  #6e0606, 0px 170px  #6e0606, 0px 171px  #6e0606, 0px 172px  #6e0606, 0px 173px  #6e0606, 0px 174px  #6e0606, 0px 175px  #6e0606, 0px 176px  #6e0606, 0px 177px  #6e0606, 0px 178px  #6e0606, 0px 179px  #6e0606, 0px 180px  #6e0606, 0px 181px  #6e0606, 0px 182px  #6e0606, 0px 183px  #6e0606, 0px 184px  #6e0606, 0px 185px  #6e0606, 0px 186px  #6e0606, 0px 187px  #6e0606, 0px 188px  #6e0606, 0px 189px  #6e0606, 0px 190px  #6e0606, 0px 191px  #6e0606, 0px 192px  #6e0606, 0px 193px  #6e0606, 0px 194px  #6e0606, 0px 195px  #6e0606, 0px 196px  #6e0606, 0px 197px  #6e0606, 0px 198px  #6e0606, 0px 199px  #6e0606;
+}
