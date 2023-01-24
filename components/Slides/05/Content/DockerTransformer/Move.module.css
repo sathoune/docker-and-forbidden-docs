@@ -1,0 +1,140 @@
+
+.head-move-away {
+    transition-property: top, right, left, bottom;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+
+    bottom: 60%;
+    right: 150%;
+}
+
+.head-move-up {
+    transition-property: top, right, left, bottom;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+
+    bottom: 150%;
+    right: 50%;
+}
+
+.head-move-target {
+    transition-property: top, right, left, bottom;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+
+    bottom: 60%;
+    right: 50%;
+    transform: rotate(60deg) scale(1.2);
+}
+
+.left-arm-move-away {
+    transition-property: top, right, left, bottom;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+
+    bottom: 0;
+    right: 120%;
+}
+
+.left-arm-move-up {
+    transition-property: top, right, left, bottom;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+
+    bottom: -50%;
+    right: 150%;
+}
+
+.left-arm-move-target {
+    transition-property: top, right, left, bottom;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+
+    bottom: 35%;
+    right: 60%;
+    transform: rotate(-20deg) scale(2.0, 1.5);
+}
+
+.right-arm-move-away {
+    transition-property: top, right, left, bottom;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+
+    bottom: 0;
+    right: -120%;
+}
+
+.right-arm-move-up {
+    transition-property: top, right, left, bottom;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+
+    bottom: -50%;
+    right: -150%;
+}
+
+.right-arm-move-target {
+    transition-property: top, right, left, bottom;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+
+    bottom: 40%;
+    right: 35%;
+    transform: rotate(200deg) scale(1.7);
+}
+
+.left-leg-move-away {
+    transition-property: top, right, left, bottom;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+
+    bottom: -120%;
+    right: 150%;
+}
+
+.left-leg-move-up {
+    transition-property: top, right, left, bottom;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+
+    bottom: -50%;
+    right: 0%;
+}
+
+.left-leg-move-target {
+    transition-property: top, right, left, bottom;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+
+    bottom: 10%;
+    right: 55%;
+    transform: rotate(-60deg) scale(2.2, 1.7);
+}
+
+.right-leg-move-away {
+    transition-property: top, right, left, bottom;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+
+    bottom: -50%;
+    right: 130%;
+}
+
+.right-leg-move-up {
+    transition-property: top, right, left, bottom;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+
+    bottom: -50%;
+    right: 130%;
+}
+
+.right-leg-move-target {
+    transition-property: top, right, left, bottom;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+
+    bottom: 15%;
+    right: 40%;
+    transform: rotate(235deg) scale(2.2, -1.7);
+}
