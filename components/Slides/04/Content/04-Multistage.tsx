@@ -3,7 +3,7 @@ import { multistageNode, thisProject } from "./utils/dockerfiles";
 const Multistage = () => {
   return (
     <section>
-      <h2>{"Multistage"}</h2>
+      <h2>{"Multistage Builds"}</h2>
       <div className={"r-stack"}>
         <pre className={"fragment"}>
           <code data-line-numbers={"2,11"}>{thisProject}</code>

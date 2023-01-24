@@ -3,11 +3,10 @@ import { runCommand } from "./utils/runCli";
 const Run = () => {
   return (
     <section>
-      <h2>{"Run"}</h2>
-      <div className={"fragment"}>
-        <code>docker run </code>
-        <span>Turns images into containers</span>
-      </div>
+      <h2>
+        <code>docker run</code>
+      </h2>
+      <div className={"fragment"}>Turns images into containers</div>
       <pre className={"fragment"}>
         <code data-line-numbers>{runCommand}</code>
       </pre>

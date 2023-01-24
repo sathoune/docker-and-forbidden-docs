@@ -3,7 +3,7 @@ import Lif from "../../../Commons/Lif";
 const Sharing = () => {
   return (
     <section>
-      <h2>{"Sharing"}</h2>
+      <h2>{"Sharing Images"}</h2>
       <ul>
         <Lif>
           <a href={"https://hub.docker.com/"}>Docker Hub</a>
