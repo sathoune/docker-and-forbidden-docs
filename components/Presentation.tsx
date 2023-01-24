@@ -11,6 +11,8 @@ const Presentation = () => {
       return;
     }
     Reveal.initialize({
+      width: "100%",
+      height: "100%",
       controls: true,
       progress: true,
       history: true,
