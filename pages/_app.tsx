@@ -1,5 +1,5 @@
 import "reveal.js/dist/reveal.css";
-import "reveal.js/dist/theme/moon.css";
+import "reveal.js/dist/theme/blood.css";
 import "reveal.js/dist/reset.css";
 import "reveal.js/plugin/highlight/monokai.css";
 import "../styles/globals.css";
