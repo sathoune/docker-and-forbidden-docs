@@ -1,6 +1,6 @@
 const Parametrize = () => {
   return (
-    <section>
+    <section data-auto-animate>
       <h2>{"Parametrize"}</h2>
     </section>
   );

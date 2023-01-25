@@ -30,6 +30,8 @@ import TitleA from "./Content/00a-Title";
 import Summary from "./Content/11-Summary";
 import NetworksA from "./Content/02a-Networks";
 import NetworksB from "./Content/02b-Networks";
+import ParametrizeA from "./Content/09a-Parametrize";
+import ParametrizeB from "./Content/09b-Parametrize";
 
 const Compose = () => {
   return (
@@ -64,6 +66,8 @@ const Compose = () => {
       <MakefileA />
       <MakefileB />
       <Parametrize />
+      <ParametrizeA />
+      <ParametrizeB />
       <CLITips />
       <Summary /> <aside className={"notes"}></aside>
     </section>
