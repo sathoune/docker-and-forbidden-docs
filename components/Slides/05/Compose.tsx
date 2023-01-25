@@ -14,12 +14,18 @@ import OverridesB from "./Content/04b-Overrides";
 import OverridesC from "./Content/04c-Overrides";
 import VolumesB from "./Content/03b-Volumes";
 import VolumesA from "./Content/03a-Volumes";
+import ConfigA from "./Content/01a-Config";
+import ConfigC from "./Content/01c-Config";
+import ConfigB from "./Content/01b-Config";
 
 const Compose = () => {
   return (
     <section>
       <Title />
       <Config />
+      <ConfigA />
+      <ConfigB />
+      <ConfigC />
       <Networks />
       <Volumes />
       <VolumesA />
