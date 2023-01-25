@@ -28,6 +28,8 @@ import MakefileA from "./Content/08a-Makefile";
 import MakefileB from "./Content/08b-Makefile";
 import TitleA from "./Content/00a-Title";
 import Summary from "./Content/11-Summary";
+import NetworksA from "./Content/02a-Networks";
+import NetworksB from "./Content/02b-Networks";
 
 const Compose = () => {
   return (
@@ -39,6 +41,8 @@ const Compose = () => {
       <ConfigB />
       <ConfigC />
       <Networks />
+      <NetworksA />
+      <NetworksB />
       <Volumes />
       <VolumesA />
       <VolumesB />
