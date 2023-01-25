@@ -18,11 +18,14 @@ const Compose2 = () => {
               </code>
             </Lif>
             <Lif>
-              <code>
-                docker compose{" "}
-                <strong className={"text-yellow-400"}>--project-name</strong>{" "}
-                down/exec/stop
-              </code>
+              <pre>
+                <code>
+                  {`docker compose \\
+  --project-name/-p \\
+  my-project \\
+  down / exec / stap`}
+                </code>
+              </pre>
             </Lif>
             <Lif>profiles</Lif>
           </ul>
