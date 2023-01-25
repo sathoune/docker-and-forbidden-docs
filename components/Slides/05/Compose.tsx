@@ -17,6 +17,8 @@ import VolumesA from "./Content/03a-Volumes";
 import ConfigA from "./Content/01a-Config";
 import ConfigC from "./Content/01c-Config";
 import ConfigB from "./Content/01b-Config";
+import InitContainersA from "./Content/05a-InitContainers";
+import InitContainersB from "./Content/05b-InitContainers";
 
 const Compose = () => {
   return (
@@ -35,6 +37,8 @@ const Compose = () => {
       <OverridesB />
       <OverridesC />
       <InitContainers />
+      <InitContainersA />
+      <InitContainersB />
       <Compose2 />
       <Profiles />
       <Makefile />
