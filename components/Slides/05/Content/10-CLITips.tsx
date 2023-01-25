@@ -14,7 +14,7 @@ const CLITips = () => {
           <code>
             docker compose exec{" "}
             <strong className={"text-yellow-400"}>service-name</strong>{" "}
-            <strong className={"text-blue-400"}>bash</strong>
+            <strong className={"text-blue-400"}>bash/sh</strong>
           </code>
         </Lif>
         <Lif>
