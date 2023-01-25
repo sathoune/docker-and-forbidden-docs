@@ -44,7 +44,7 @@ RUN poetry install
 
 COPY . .`;
 
-export const thisProject = `# this presentation
+export const thisProject = `# This project
 FROM --platform=linux/amd64 node:18-alpine as development
 WORKDIR /app
 
