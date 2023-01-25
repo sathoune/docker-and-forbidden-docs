@@ -26,11 +26,13 @@ import ProfilesD from "./Content/07d-Profiles";
 import ProfilesE from "./Content/07e-Profiles";
 import MakefileA from "./Content/08a-Makefile";
 import MakefileB from "./Content/08b-Makefile";
+import TitleA from "./Content/00a-Title";
 
 const Compose = () => {
   return (
     <section>
       <Title />
+      <TitleA />
       <Config />
       <ConfigA />
       <ConfigB />
