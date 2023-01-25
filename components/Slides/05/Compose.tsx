@@ -12,6 +12,8 @@ import Parametrize from "./Content/09-Parametrize";
 import OverridesA from "./Content/04a-Overrides";
 import OverridesB from "./Content/04b-Overrides";
 import OverridesC from "./Content/04c-Overrides";
+import VolumesB from "./Content/03b-Volumes";
+import VolumesA from "./Content/03a-Volumes";
 
 const Compose = () => {
   return (
@@ -20,6 +22,8 @@ const Compose = () => {
       <Config />
       <Networks />
       <Volumes />
+      <VolumesA />
+      <VolumesB />
       <Overrides />
       <OverridesA />
       <OverridesB />
