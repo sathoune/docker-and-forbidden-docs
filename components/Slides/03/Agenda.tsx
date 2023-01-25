@@ -8,7 +8,6 @@ const Agenda = () => {
         <Lif>Overview</Lif>
         <Lif>Docker</Lif>
         <Lif>Docker Compose</Lif>
-        <Lif>Production usage</Lif>
       </ul>
       <aside className={"notes"}></aside>
     </section>
