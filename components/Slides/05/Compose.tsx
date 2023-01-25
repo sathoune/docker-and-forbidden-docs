@@ -9,6 +9,9 @@ import InitContainers from "./Content/05-InitContainers";
 import Profiles from "./Content/07-Profiles";
 import Makefile from "./Content/08-Makefile";
 import Parametrize from "./Content/09-Parametrize";
+import OverridesA from "./Content/04a-Overrides";
+import OverridesB from "./Content/04b-Overrides";
+import OverridesC from "./Content/04c-Overrides";
 
 const Compose = () => {
   return (
@@ -18,6 +21,9 @@ const Compose = () => {
       <Networks />
       <Volumes />
       <Overrides />
+      <OverridesA />
+      <OverridesB />
+      <OverridesC />
       <InitContainers />
       <Compose2 />
       <Profiles />
