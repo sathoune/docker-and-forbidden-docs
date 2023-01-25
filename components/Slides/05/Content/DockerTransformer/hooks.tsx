@@ -5,7 +5,7 @@ export const useHead = () => {
   const [animation, setAnimation] = useState("");
   useEffect(() => {
     setTimeout(() => {
-      setAnimation(`${styles["head-move-away"]} ${styles["animate-spin"]}`);
+      setAnimation(`${styles["head-move-away"]} animate-spin`);
     }, 500);
 
     setTimeout(() => {
@@ -24,7 +24,7 @@ export const useLeftArm = () => {
   const [animation, setAnimation] = useState("");
   useEffect(() => {
     setTimeout(() => {
-      setAnimation(`${styles["left-arm-move-away"]} ${styles["animate-spin"]}`);
+      setAnimation(`${styles["left-arm-move-away"]} animate-spin`);
     }, 500);
 
     setTimeout(() => {
@@ -42,9 +42,7 @@ export const useRightArm = () => {
   const [animation, setAnimation] = useState("");
   useEffect(() => {
     setTimeout(() => {
-      setAnimation(
-        `${styles["right-arm-move-away"]} ${styles["animate-spin"]}`
-      );
+      setAnimation(`${styles["right-arm-move-away"]} animate-spin`);
     }, 500);
 
     setTimeout(() => {
@@ -62,7 +60,7 @@ export const useLeftLeg = () => {
   const [animation, setAnimation] = useState("");
   useEffect(() => {
     setTimeout(() => {
-      setAnimation(`${styles["left-leg-move-away"]} ${styles["animate-spin"]}`);
+      setAnimation(`${styles["left-leg-move-away"]} animate-spin`);
     }, 500);
 
     setTimeout(() => {
@@ -80,9 +78,7 @@ export const useRightLeg = () => {
   const [animation, setAnimation] = useState("");
   useEffect(() => {
     setTimeout(() => {
-      setAnimation(
-        `${styles["right-leg-move-away"]} ${styles["animate-spin"]}`
-      );
+      setAnimation(`${styles["right-leg-move-away"]} animate-spin`);
     }, 500);
 
     setTimeout(() => {
