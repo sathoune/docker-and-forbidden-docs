@@ -2,7 +2,7 @@ import { thisBase, thisExtension, thisResult } from "./overrides/thisProject";
 
 const OverridesA = () => {
   return (
-    <section className={"w-1/2 h-full"} data-auto-animate>
+    <section className={"w-1/2 h-full mt-5"} data-auto-animate>
       <h2>{"Overrides"}</h2>
       <span className={"text-yellow-700 text-5xl"}>
         <strong>Extending</strong>

@@ -2,7 +2,7 @@ import { extended, short } from "./volumes/bind";
 
 const VolumesB = () => {
   return (
-    <section data-auto-animate className={"h-full w-1/2"}>
+    <section data-auto-animate className={"h-full mt-5"}>
       <h2>{"Volumes"}</h2>
       <span className={"text-yellow-700 text-5xl"}>
         <strong>Bind</strong>
