@@ -19,6 +19,11 @@ import ConfigC from "./Content/01c-Config";
 import ConfigB from "./Content/01b-Config";
 import InitContainersA from "./Content/05a-InitContainers";
 import InitContainersB from "./Content/05b-InitContainers";
+import ProfilesA from "./Content/07a-Profiles";
+import ProfilesB from "./Content/07b-Profiles";
+import ProfilesC from "./Content/07c-Profiles";
+import ProfilesD from "./Content/07d-Profiles";
+import ProfilesE from "./Content/07e-Profiles";
 
 const Compose = () => {
   return (
@@ -41,6 +46,11 @@ const Compose = () => {
       <InitContainersB />
       <Compose2 />
       <Profiles />
+      <ProfilesA />
+      <ProfilesB />
+      <ProfilesC />
+      <ProfilesD />
+      <ProfilesE />
       <Makefile />
       <Parametrize />
       <CLITips />
