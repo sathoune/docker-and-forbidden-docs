@@ -27,6 +27,7 @@ import ProfilesE from "./Content/07e-Profiles";
 import MakefileA from "./Content/08a-Makefile";
 import MakefileB from "./Content/08b-Makefile";
 import TitleA from "./Content/00a-Title";
+import Summary from "./Content/11-Summary";
 
 const Compose = () => {
   return (
@@ -60,7 +61,7 @@ const Compose = () => {
       <MakefileB />
       <Parametrize />
       <CLITips />
-      <aside className={"notes"}></aside>
+      <Summary /> <aside className={"notes"}></aside>
     </section>
   );
 };

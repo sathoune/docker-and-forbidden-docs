@@ -8,6 +8,7 @@ import DockerfileB from "./Content/02b-Dockerfile";
 import DockerfileC from "./Content/02c-Dockerfile";
 import MultistageA from "./Content/03a-Multistage";
 import MultistageB from "./Content/03b-Multistage";
+import Summary from "./Content/04-Summary";
 
 const Docker = () => {
   return (
@@ -22,6 +23,7 @@ const Docker = () => {
       <MultistageA />
       <MultistageB />
       <Run />
+      <Summary />
       <aside className={"notes"}></aside>
     </section>
   );
