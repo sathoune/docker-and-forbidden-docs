@@ -1,7 +1,8 @@
 const Makefile = () => {
   return (
-    <section>
-      <h2>{"Makefile"}</h2>
+    <section data-auto-animate>
+      <h4>{"Lots of config options"}</h4>
+      <h2 className={"fragment"}>Use Makefile!</h2>
     </section>
   );
 };

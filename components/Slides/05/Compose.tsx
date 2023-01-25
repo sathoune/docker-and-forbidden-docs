@@ -24,6 +24,8 @@ import ProfilesB from "./Content/07b-Profiles";
 import ProfilesC from "./Content/07c-Profiles";
 import ProfilesD from "./Content/07d-Profiles";
 import ProfilesE from "./Content/07e-Profiles";
+import MakefileA from "./Content/08a-Makefile";
+import MakefileB from "./Content/08b-Makefile";
 
 const Compose = () => {
   return (
@@ -52,6 +54,8 @@ const Compose = () => {
       <ProfilesD />
       <ProfilesE />
       <Makefile />
+      <MakefileA />
+      <MakefileB />
       <Parametrize />
       <CLITips />
       <aside className={"notes"}></aside>
