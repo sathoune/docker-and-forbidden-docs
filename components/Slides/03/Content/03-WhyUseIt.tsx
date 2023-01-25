@@ -10,6 +10,7 @@ const WhyUseItAsDevOps = () => {
         <Lif>Images are ready do deploy</Lif>
         <Lif>Runtime is heavily configurable</Lif>
         <Lif>Widely supported</Lif>
+        <Lif>Horizontal scaling</Lif>
       </ul>
     </section>
   );
